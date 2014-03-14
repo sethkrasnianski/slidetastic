@@ -1,0 +1,27 @@
+{
+  "name": "slidetastic",
+  "version": "1.0.1",
+  "description": "Simple javascript slider proxied through zepto or jQuery.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/figmints/slidetastic.git"
+  },
+  "keywords": [
+    "javascript",
+    "slider"
+  ],
+  "author": "Seth John Krasnianski",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/figmints/slidetastic/issues"
+  },
+  "dependencies": {
+    "gulp-util": "~2.2.14",
+    "gulp": "~3.5.6",
+    "gulp-uglify": "~0.2.1"
+  }
+}
