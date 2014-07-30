@@ -12,4 +12,4 @@ Slider Class
 2. `el`      - Slider wrapper element
 3. `slideEl` - The individual slide element
 
-Refer to `ExampleSlider.js` for handlers
+Refer to `src/ExampleSlider.js` for handlers
