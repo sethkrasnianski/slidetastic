@@ -52,9 +52,10 @@ var Slidetastic = (function () {
       };
     },
     // Go To slide
-    goTo: function() {
+    goTo: function(i) {
+      this.i = i;
       this.$slideEl().hide();
-      this.$slideEl().eq(this.i).fadeIn();
+      this.$slideEl().eq(i).fadeIn();
     },
     // Total slides
     total: function() {
